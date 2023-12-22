@@ -1,0 +1,489 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TestPlayer</name>
+    </assembly>
+    <members>
+        <member name="T:TestPlayer.CloseAUT">
+             <summary>
+            The CloseAUT recording.
+             </summary>
+        </member>
+        <member name="F:TestPlayer.CloseAUT.repo">
+            <summary>
+            Holds an instance of the TestPlayerRepository repository.
+            </summary>
+        </member>
+        <member name="M:TestPlayer.CloseAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.CloseAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.CloseAUT.CloseAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable CloseAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:TestPlayer.CloseAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TestPlayer.CloseAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TestPlayer.CloseAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TestPlayer.CloseAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:TestPlayer.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:TestPlayer.Recording1.repo">
+            <summary>
+            Holds an instance of the TestPlayerRepository repository.
+            </summary>
+        </member>
+        <member name="M:TestPlayer.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.Recording1.searchLastName">
+            <summary>
+            Gets or sets the value of variable searchLastName.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.Recording1.searchFirstName">
+            <summary>
+            Gets or sets the value of variable searchFirstName.
+            </summary>
+        </member>
+        <member name="M:TestPlayer.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TestPlayer.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TestPlayer.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TestPlayer.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:TestPlayer.StartAUT">
+             <summary>
+            The StartAUT recording.
+             </summary>
+        </member>
+        <member name="F:TestPlayer.StartAUT.repo">
+            <summary>
+            Holds an instance of the TestPlayerRepository repository.
+            </summary>
+        </member>
+        <member name="M:TestPlayer.StartAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.StartAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.StartAUT.StartAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable StartAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:TestPlayer.StartAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TestPlayer.StartAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TestPlayer.StartAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TestPlayer.StartAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:TestPlayer.TestPlayerRepository">
+            <summary>
+            The class representing the TestPlayerRepository element repository.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.TestPlayerRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the TestPlayerRepository element repository.
+            </summary>
+        </member>
+        <member name="M:TestPlayer.TestPlayerRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.TestPlayerRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.TestPlayerRepository.Password">
+            <summary>
+            The Password folder.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.TestPlayerRepository.VIPlayers23502416">
+            <summary>
+            The VIPlayers23502416 folder.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.TestPlayerRepository.Player">
+            <summary>
+            The Player folder.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.TestPlayerRepository.CustomerSearch23502416">
+            <summary>
+            The CustomerSearch23502416 folder.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.TestPlayerRepository.Error">
+            <summary>
+            The Error folder.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.TestPlayerRepository.Form1">
+            <summary>
+            The Form1 folder.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.TestPlayerRepository.PlayerAccountManagement23502416">
+            <summary>
+            The PlayerAccountManagement23502416 folder.
+            </summary>
+        </member>
+        <member name="T:TestPlayer.TestPlayerRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:TestPlayer.TestPlayerRepositoryFolders.PasswordAppFolder">
+            <summary>
+            The PasswordAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TestPlayer.TestPlayerRepositoryFolders.PasswordAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Password  folder.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.TestPlayerRepositoryFolders.PasswordAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.TestPlayerRepositoryFolders.PasswordAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.TestPlayerRepositoryFolders.PasswordAppFolder.Password">
+            <summary>
+            The Password item.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.TestPlayerRepositoryFolders.PasswordAppFolder.PasswordInfo">
+            <summary>
+            The Password item info.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.TestPlayerRepositoryFolders.PasswordAppFolder.ButtonOK">
+            <summary>
+            The ButtonOK item.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.TestPlayerRepositoryFolders.PasswordAppFolder.ButtonOKInfo">
+            <summary>
+            The ButtonOK item info.
+            </summary>
+        </member>
+        <member name="T:TestPlayer.TestPlayerRepositoryFolders.VIPlayers23502416AppFolder">
+            <summary>
+            The VIPlayers23502416AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TestPlayer.TestPlayerRepositoryFolders.VIPlayers23502416AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new VIPlayers23502416  folder.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.TestPlayerRepositoryFolders.VIPlayers23502416AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.TestPlayerRepositoryFolders.VIPlayers23502416AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.TestPlayerRepositoryFolders.VIPlayers23502416AppFolder.ImBackSplash">
+            <summary>
+            The ImBackSplash item.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.TestPlayerRepositoryFolders.VIPlayers23502416AppFolder.ImBackSplashInfo">
+            <summary>
+            The ImBackSplash item info.
+            </summary>
+        </member>
+        <member name="T:TestPlayer.TestPlayerRepositoryFolders.PlayerAppFolder">
+            <summary>
+            The PlayerAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TestPlayer.TestPlayerRepositoryFolders.PlayerAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Player  folder.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.TestPlayerRepositoryFolders.PlayerAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.TestPlayerRepositoryFolders.PlayerAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.TestPlayerRepositoryFolders.PlayerAppFolder.Management">
+            <summary>
+            The Management item.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.TestPlayerRepositoryFolders.PlayerAppFolder.ManagementInfo">
+            <summary>
+            The Management item info.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.TestPlayerRepositoryFolders.PlayerAppFolder.Player">
+            <summary>
+            The Player item.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.TestPlayerRepositoryFolders.PlayerAppFolder.PlayerInfo">
+            <summary>
+            The Player item info.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.TestPlayerRepositoryFolders.PlayerAppFolder.Exit">
+            <summary>
+            The Exit item.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.TestPlayerRepositoryFolders.PlayerAppFolder.ExitInfo">
+            <summary>
+            The Exit item info.
+            </summary>
+        </member>
+        <member name="T:TestPlayer.TestPlayerRepositoryFolders.CustomerSearch23502416AppFolder">
+            <summary>
+            The CustomerSearch23502416AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TestPlayer.TestPlayerRepositoryFolders.CustomerSearch23502416AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new CustomerSearch23502416  folder.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.TestPlayerRepositoryFolders.CustomerSearch23502416AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.TestPlayerRepositoryFolders.CustomerSearch23502416AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.TestPlayerRepositoryFolders.CustomerSearch23502416AppFolder.FirstName">
+            <summary>
+            The FirstName item.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.TestPlayerRepositoryFolders.CustomerSearch23502416AppFolder.FirstNameInfo">
+            <summary>
+            The FirstName item info.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.TestPlayerRepositoryFolders.CustomerSearch23502416AppFolder.ButtonOK">
+            <summary>
+            The ButtonOK item.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.TestPlayerRepositoryFolders.CustomerSearch23502416AppFolder.ButtonOKInfo">
+            <summary>
+            The ButtonOK item info.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.TestPlayerRepositoryFolders.CustomerSearch23502416AppFolder.Name">
+            <summary>
+            The Name item.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.TestPlayerRepositoryFolders.CustomerSearch23502416AppFolder.NameInfo">
+            <summary>
+            The Name item info.
+            </summary>
+        </member>
+        <member name="T:TestPlayer.TestPlayerRepositoryFolders.ErrorAppFolder">
+            <summary>
+            The ErrorAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TestPlayer.TestPlayerRepositoryFolders.ErrorAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Error  folder.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.TestPlayerRepositoryFolders.ErrorAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.TestPlayerRepositoryFolders.ErrorAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.TestPlayerRepositoryFolders.ErrorAppFolder.ButtonOK">
+            <summary>
+            The ButtonOK item.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.TestPlayerRepositoryFolders.ErrorAppFolder.ButtonOKInfo">
+            <summary>
+            The ButtonOK item info.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.TestPlayerRepositoryFolders.ErrorAppFolder.ButtonNo">
+            <summary>
+            The ButtonNo item.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.TestPlayerRepositoryFolders.ErrorAppFolder.ButtonNoInfo">
+            <summary>
+            The ButtonNo item info.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.TestPlayerRepositoryFolders.ErrorAppFolder.ButtonYes">
+            <summary>
+            The ButtonYes item.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.TestPlayerRepositoryFolders.ErrorAppFolder.ButtonYesInfo">
+            <summary>
+            The ButtonYes item info.
+            </summary>
+        </member>
+        <member name="T:TestPlayer.TestPlayerRepositoryFolders.Form1AppFolder">
+            <summary>
+            The Form1AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TestPlayer.TestPlayerRepositoryFolders.Form1AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Form1  folder.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.TestPlayerRepositoryFolders.Form1AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.TestPlayerRepositoryFolders.Form1AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:TestPlayer.TestPlayerRepositoryFolders.PlayerAccountManagement23502416AppFolder">
+            <summary>
+            The PlayerAccountManagement23502416AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TestPlayer.TestPlayerRepositoryFolders.PlayerAccountManagement23502416AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new PlayerAccountManagement23502416  folder.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.TestPlayerRepositoryFolders.PlayerAccountManagement23502416AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.TestPlayerRepositoryFolders.PlayerAccountManagement23502416AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.TestPlayerRepositoryFolders.PlayerAccountManagement23502416AppFolder.ButtonClose">
+            <summary>
+            The ButtonClose item.
+            </summary>
+        </member>
+        <member name="P:TestPlayer.TestPlayerRepositoryFolders.PlayerAccountManagement23502416AppFolder.ButtonCloseInfo">
+            <summary>
+            The ButtonClose item info.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

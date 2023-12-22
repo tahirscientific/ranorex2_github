@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="799a402b-c7d5-4be9-97ee-ea84ddbf6dc8"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartAUT"
+	namespace="TestPlayer">
+	</codegen>
+	<variables>
+		<var
+		id="8a19c801-8417-4c0d-942c-8dde1831235b"
+		name="StartAutProcessIDVar">
+		</var>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="StartAutProcessIDVar">
+				</binding>
+			</bindings>
+			<filename>
+				C:\Program Files (x86)\Bally Technologies\MCC Casino System\Player.exe
+			</filename>
+			<args>
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="64c52513-a643-4933-af8c-6ea926f30e49"
+	name="TestPlayerRepository"
+	relativepath="TestPlayerRepository.rxrep">
+		<codegen
+		classname="TestPlayerRepository"
+		namespace="TestPlayer">
+		</codegen>
+		<rootfolder
+		id="68a53fc2-19d3-4efa-ac01-c95a7cf8df96"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

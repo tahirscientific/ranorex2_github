@@ -1,0 +1,12 @@
+C:\Users\Ballylab\Documents\tahir\ranorex\22\TestPlayer\TestPlayer\bin\Debug\TestPlayer.rxtmg
+C:\Users\Ballylab\Documents\tahir\ranorex\22\TestPlayer\TestPlayer\bin\Debug\TestPlayer.rxtst
+C:\Users\Ballylab\Documents\tahir\ranorex\22\TestPlayer\TestPlayer\bin\Debug\TestPlayer.exe.config
+C:\Users\Ballylab\Documents\tahir\ranorex\22\TestPlayer\TestPlayer\bin\Debug\TestPlayer.xml
+C:\Users\Ballylab\Documents\tahir\ranorex\22\TestPlayer\TestPlayer\bin\Debug\TestPlayer.exe
+C:\Users\Ballylab\Documents\tahir\ranorex\22\TestPlayer\TestPlayer\bin\Debug\TestPlayer.pdb
+C:\Users\Ballylab\Documents\tahir\ranorex\22\TestPlayer\TestPlayer\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\Ballylab\Documents\tahir\ranorex\22\TestPlayer\TestPlayer\obj\x86\Debug\TestPlayer.csproj.AssemblyReference.cache
+C:\Users\Ballylab\Documents\tahir\ranorex\22\TestPlayer\TestPlayer\obj\x86\Debug\TestPlayer.csproj.CoreCompileInputs.cache
+C:\Users\Ballylab\Documents\tahir\ranorex\22\TestPlayer\TestPlayer\obj\x86\Debug\TestPlayer.csproj.CopyComplete
+C:\Users\Ballylab\Documents\tahir\ranorex\22\TestPlayer\TestPlayer\obj\x86\Debug\TestPlayer.exe
+C:\Users\Ballylab\Documents\tahir\ranorex\22\TestPlayer\TestPlayer\obj\x86\Debug\TestPlayer.pdb

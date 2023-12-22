@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="8e77ac74-13b1-4285-82ac-af460d95a0c7"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAUT"
+	namespace="TestPlayer">
+	</codegen>
+	<variables>
+		<var
+		id="ff05ea6b-6dd6-4c8f-bdb5-678112f5a210"
+		name="CloseAutProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="fa990794-f59e-4def-9a0d-30856fd1308f">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="CloseAutProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="64c52513-a643-4933-af8c-6ea926f30e49"
+	name="TestPlayerRepository"
+	relativepath="TestPlayerRepository.rxrep">
+		<codegen
+		classname="TestPlayerRepository"
+		namespace="TestPlayer">
+		</codegen>
+		<rootfolder
+		id="68a53fc2-19d3-4efa-ac01-c95a7cf8df96"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
