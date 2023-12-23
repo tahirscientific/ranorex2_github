@@ -117,8 +117,8 @@ namespace TestPlayer
             repo.Password.ButtonOK.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Form1' at 22;49.", repo.Form1.SelfInfo, new RecordItemIndex(3));
-            repo.Form1.Self.Click("22;49");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Form1' at Center.", repo.Form1.SelfInfo, new RecordItemIndex(3));
+            repo.Form1.Self.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Player.Management' at 72;13.", repo.Player.ManagementInfo, new RecordItemIndex(4));
