@@ -185,13 +185,6 @@
       <id>785a85cd-42e7-4f72-b626-f83d14549b92</id>
       <recordtableid>d792bd5b-12b2-4c77-b577-e723bb9ce635</recordtableid>
     </None>
-    <Content Include="search.xlsx">
-      <Link>search.xlsx</Link>
-      <BoundTo>28b00f22-4a68-4dc3-a0d9-dcaef955cd90</BoundTo>
-      <DependentUpon>TestPlayer.rxtst</DependentUpon>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <id>47abea8d-5fa9-467c-9f83-b0de2034a300</id>
-    </Content>
     <None Include="StartAUT.rxrec">
       <BoundTo>381749e7-c44e-4cc1-9a10-47cd22e08f34</BoundTo>
       <id>35ce30e8-350e-4d3b-8c31-5ebf3fa0934d</id>

@@ -83,7 +83,7 @@
 				</parameters>
 			</testcase>
 			<testcase
-			datasource="excelSearch"
+			datasource="excelConnector"
 			id="f00b5acd-421b-4185-a44c-9a1e66842acb"
 			name="TestCase">
 			</testcase>
@@ -95,17 +95,25 @@
 				<databinding>
 					<var
 					dataname="LastName"
-					datasourceid="291a3623-11ce-4464-ba60-2a67ee9503be"
+					datasourceid="c384159a-c1fd-4cd2-8818-565b07f5a115"
 					variableid="5e8969e9-da00-4532-a2c3-07a63bcecca7"
 					variablename="searchLastName">
 					</var>
 					<var
 					dataname="FirstName"
-					datasourceid="291a3623-11ce-4464-ba60-2a67ee9503be"
+					datasourceid="c384159a-c1fd-4cd2-8818-565b07f5a115"
 					variableid="3ff6794e-9b5f-45a0-b373-7477c9721744"
 					variablename="searchFirstName">
 					</var>
 				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="LastName"
+					datasourceid="291a3623-11ce-4464-ba60-2a67ee9503be"
+					variableid="5e8969e9-da00-4532-a2c3-07a63bcecca7"
+					variablename="searchLastName">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 		</flatlistofchildren>
 		<childhierarchy>
@@ -145,11 +153,11 @@
 	</testsuiteentryhierarchy>
 	<datasources>
 		<DataSource
-		filename="search.xlsx"
-		id="291a3623-11ce-4464-ba60-2a67ee9503be"
-		includefile="Checked"
+		filename="C:\Users\Ballylab\Documents\tahir\ranorex\22\TestPlayer\search.xlsx"
+		id="c384159a-c1fd-4cd2-8818-565b07f5a115"
+		includefile="Unchecked"
 		lastknownrowcount="1"
-		name="excelSearch"
+		name="excelConnector"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Feuil1"
 		worksheetrange="Auto-Range">
