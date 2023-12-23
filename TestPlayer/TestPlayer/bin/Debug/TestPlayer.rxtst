@@ -83,7 +83,7 @@
 				</parameters>
 			</testcase>
 			<testcase
-			datasource="excelConnector"
+			datasource="simpleData"
 			id="f00b5acd-421b-4185-a44c-9a1e66842acb"
 			name="TestCase">
 			</testcase>
@@ -93,6 +93,20 @@
 			ref="d792bd5b-12b2-4c77-b577-e723bb9ce635"
 			type="Recording">
 				<databinding>
+					<var
+					dataname="FirstName"
+					datasourceid="309352d2-665e-4bad-b147-4f5c27e50938"
+					variableid="3ff6794e-9b5f-45a0-b373-7477c9721744"
+					variablename="searchFirstName">
+					</var>
+					<var
+					dataname="LastName"
+					datasourceid="309352d2-665e-4bad-b147-4f5c27e50938"
+					variableid="5e8969e9-da00-4532-a2c3-07a63bcecca7"
+					variablename="searchLastName">
+					</var>
+				</databinding>
+				<missingdatabinding>
 					<var
 					dataname="LastName"
 					datasourceid="c384159a-c1fd-4cd2-8818-565b07f5a115"
@@ -104,14 +118,6 @@
 					datasourceid="c384159a-c1fd-4cd2-8818-565b07f5a115"
 					variableid="3ff6794e-9b5f-45a0-b373-7477c9721744"
 					variablename="searchFirstName">
-					</var>
-				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="LastName"
-					datasourceid="291a3623-11ce-4464-ba60-2a67ee9503be"
-					variableid="5e8969e9-da00-4532-a2c3-07a63bcecca7"
-					variablename="searchLastName">
 					</var>
 				</missingdatabinding>
 			</testmodule>
@@ -171,6 +177,40 @@
 			</lastknowncolumns>
 			<maskedcolumns>
 			</maskedcolumns>
+		</DataSource>
+		<DataSource
+		id="309352d2-665e-4bad-b147-4f5c27e50938"
+		lastknownrowcount="1"
+		name="simpleData"
+		type="Ranorex.Core.Data.SimpleDataConnector">
+			<lastknowncolumns>
+				<column>
+					LastName
+				</column>
+				<column>
+					FirstName
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns>
+			</maskedcolumns>
+			<table>
+				<tr>
+					<th>
+						LastName
+					</th>
+					<th>
+						FirstName
+					</th>
+				</tr>
+				<tr>
+					<td>
+						RANO333
+					</td>
+					<td>
+						REX333
+					</td>
+				</tr>
+			</table>
 		</DataSource>
 	</datasources>
 	<testconfigurations
