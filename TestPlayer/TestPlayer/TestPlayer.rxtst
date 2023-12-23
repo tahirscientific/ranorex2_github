@@ -145,9 +145,9 @@
 	</testsuiteentryhierarchy>
 	<datasources>
 		<DataSource
-		filename="C:\Users\Ballylab\Documents\tahir\ranorex\22\search.xlsx"
+		filename="search.xlsx"
 		id="291a3623-11ce-4464-ba60-2a67ee9503be"
-		includefile="Unchecked"
+		includefile="Checked"
 		lastknownrowcount="1"
 		name="excelSearch"
 		type="Ranorex.Core.Data.ExcelDataConnector"

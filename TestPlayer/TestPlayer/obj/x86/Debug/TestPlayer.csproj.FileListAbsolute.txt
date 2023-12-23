@@ -10,3 +10,4 @@ C:\Users\Ballylab\Documents\tahir\ranorex\22\TestPlayer\TestPlayer\obj\x86\Debug
 C:\Users\Ballylab\Documents\tahir\ranorex\22\TestPlayer\TestPlayer\obj\x86\Debug\TestPlayer.csproj.CopyComplete
 C:\Users\Ballylab\Documents\tahir\ranorex\22\TestPlayer\TestPlayer\obj\x86\Debug\TestPlayer.exe
 C:\Users\Ballylab\Documents\tahir\ranorex\22\TestPlayer\TestPlayer\obj\x86\Debug\TestPlayer.pdb
+C:\Users\Ballylab\Documents\tahir\ranorex\22\TestPlayer\TestPlayer\bin\Debug\search.xlsx
