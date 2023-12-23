@@ -113,20 +113,20 @@ namespace TestPlayer
             repo.Password.Password.PressKeys("{LShiftKey down}123456{LShiftKey up}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Password.ButtonOK' at 24;15.", repo.Password.ButtonOKInfo, new RecordItemIndex(2));
-            repo.Password.ButtonOK.Click("24;15");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Password.ButtonOK' at Center.", repo.Password.ButtonOKInfo, new RecordItemIndex(2));
+            repo.Password.ButtonOK.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'VIPlayers23502416' at 20;52.", repo.VIPlayers23502416.SelfInfo, new RecordItemIndex(3));
-            repo.VIPlayers23502416.Self.Click("20;52");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Form1' at 22;49.", repo.Form1.SelfInfo, new RecordItemIndex(3));
+            repo.Form1.Self.Click("22;49");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Player.Management' at 59;7.", repo.Player.ManagementInfo, new RecordItemIndex(4));
-            repo.Player.Management.Click("59;7");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Player.Management' at 72;13.", repo.Player.ManagementInfo, new RecordItemIndex(4));
+            repo.Player.Management.Click("72;13");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Player.Player' at 76;11.", repo.Player.PlayerInfo, new RecordItemIndex(5));
-            repo.Player.Player.Click("76;11");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Player.Player' at 40;10.", repo.Player.PlayerInfo, new RecordItemIndex(5));
+            repo.Player.Player.Click("40;10");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'CustomerSearch23502416.Name' at 46;10.", repo.CustomerSearch23502416.NameInfo, new RecordItemIndex(6));
